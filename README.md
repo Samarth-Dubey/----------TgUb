@@ -1,5 +1,5 @@
 # CatUserbot
-A simple Telegram userbot based on Telethon .
+An Advance Multi-Featured Telegram userbot based on Telethon.
 
 ## How to Deploy Catuserbot
 ### Heroku Deploy 
