@@ -1,8 +1,8 @@
 # CatUserbot
 An Advance Multi-Featured Telegram userbot based on Telethon.
 
-## How to Deploy Catuserbot
-### Heroku Deploy 
+## Method to Deploy CatUserbot
+### Deploy to Heroku  
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Samarth-Dubey/CatTgUb)
   
 ## Support
