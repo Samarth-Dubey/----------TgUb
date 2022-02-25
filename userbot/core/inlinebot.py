@@ -53,8 +53,8 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"𝗖𝗮𝘁𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𝗛𝗲𝗹𝗽𝗲𝗿\
-        \n𝗣𝗿𝗼𝘃𝗶𝗱𝗲𝗱 𝗯𝘆 {mention}"
+    text = f"𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗛𝗲𝗹𝗽 𝗠𝗲𝗻𝘂\
+        \n𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗯𝘆 {mention}"
     buttons = [
         (Button.inline("ℹ️ Info", data="check"),),
         (
@@ -424,7 +424,7 @@ async def inline_handler(event):  # sourcery no-metrics
             _result = main_menu()
             result = builder.article(
                 title="© CatUserbot Help",
-                description="Help menu for CatUserbot",
+                description="Help menu for DevUserbot",
                 text=_result[0],
                 buttons=_result[1],
                 link_preview=False,
@@ -572,12 +572,12 @@ async def inline_handler(event):  # sourcery no-metrics
             url=CATLOGO, size=0, mime_type="image/jpeg", attributes=[]
         )
         text, msg_entities = await event.client._parse_message_text(
-            "𝗗𝗲𝗽𝗹𝗼𝘆 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝗖𝗮𝘁𝗨𝘀𝗲𝗿𝗯𝗼𝘁.", "md"
+            "𝗗𝗲𝗽𝗹𝗼𝘆 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁.", "md"
         )
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="𝘾𝙖𝙩𝙐𝙨𝙚𝙧𝙗𝙤𝙩",
+            title="𝙐𝙨𝙚𝙧𝙗𝙤𝙩",
             description="Deploy yourself",
             url="https://github.com/Jisan09/catuserbot",
             thumb=photo,
