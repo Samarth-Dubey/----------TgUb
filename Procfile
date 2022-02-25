@@ -1,1 +1,1 @@
-worker: bash catub
+worker: userbot
